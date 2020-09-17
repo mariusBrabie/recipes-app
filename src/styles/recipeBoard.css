@@ -1,0 +1,48 @@
+.recipe-board {
+    display: inline-block;
+    max-width: 28rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    background: white;;
+    padding: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(20, 82, 20, .3);
+    min-height: 36rem;
+    opacity: 0.9;
+    transition: opacity 0.1s;
+}
+
+.board-img {
+    border-radius: 1rem;
+    width: 28rem;
+    height: 28rem;
+}
+
+.kcal-time-details {
+    display: flex;
+    justify-content: space-evenly;
+    color: #042404;
+    font-style: italic;
+}
+
+.board-title {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.recipe-board:hover {
+    cursor: zoom-in;
+    opacity: 1;
+    box-shadow: 0 0 0.6rem rgba(20, 82, 20, .8);
+}
+
+@media (max-width : 65.5rem) {
+    .board-img {
+        width: 40rem;
+        height: 40rem;
+    }
+    .recipe-board {
+        max-width: 40rem;
+    }
+}

@@ -1,0 +1,75 @@
+.favorite-board {
+    display: inline-block;
+    max-width: 50rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    background: white;;
+    padding: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(20, 82, 20, .3);
+    min-height: 36rem;
+}
+
+.favorite-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    color: #042404;
+}
+
+.left {
+    justify-content: space-between;
+}
+
+.right {
+    justify-content: space-around;
+}
+
+.recipe-link a {
+    color: #105910;
+    font-style: italic;
+}
+
+.left h2 {
+    max-width: 28rem;
+    color: black;
+}
+
+.left-sec-div {
+    margin: 2rem 0 0 0;
+}
+
+.remove-button {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.right ul p {
+    margin-bottom: 0.5rem;
+    color: black;
+    font-size: 1.9rem;
+}
+
+.right ul li {
+    padding: 0.3rem 0;
+}
+
+ul:nth-child(even) {
+    margin-top: 2rem;
+    
+}
+
+@media (max-width : 65.5rem) {
+    .favorite-board {
+        max-width: 100%;
+    }
+}

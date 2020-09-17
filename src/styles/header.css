@@ -1,0 +1,32 @@
+.selected {
+    border-bottom: 0.2rem solid white;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    opacity: 1;
+    background: #105910;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    padding: 2.4rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}

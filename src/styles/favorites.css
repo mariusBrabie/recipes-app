@@ -1,0 +1,10 @@
+#search-fav {
+    margin: 2rem 0;
+    display: block;
+}
+
+#search-input-fav {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,112 @@
+.ReactModalPortal .ReactModal__Overlay {
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    transition: opacity 200ms ease-in-out;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.modal {
+    background: #f5fcf5;
+    box-shadow: 0 0 0.8rem rgba(20, 82, 20, .5);
+    outline: none;
+    margin-top: 8rem;
+    border-radius: 1rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-img {
+    height: 40rem;
+    width: 40rem;
+    border-radius: 1rem;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: row;
+    padding: 1.6rem;
+}
+
+.modal-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    justify-content: space-between;
+}
+
+.modal-content-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.list-title {
+    margin-bottom: 0.5rem;
+    color: black;
+    font-size: 1.9rem;
+}
+
+.modal-content-left .recipe-link {
+    font-size: 1.8rem;
+    margin: 1rem auto;
+}
+
+.modal-content-right ul li {
+    padding: 0.3rem 0;
+}
+
+#modal-link {
+    padding-left: 4rem;
+}
+
+.fav-button {
+    border-radius: 0.5rem;
+    border-color:  #ccc;
+    box-shadow: 0 0 0.5rem #aaa;
+    background: #e1f0e1;
+    background:white;
+    color: #105910;
+    font-size: 2rem;
+    padding: 0.3rem 0;
+    display: block;
+    text-align: center;
+}
+
+.fav-button:hover { 
+    cursor: pointer;
+    box-shadow: 0 0 0.7rem rgba(4, 80, 10, 0.8);
+    background: white;
+}
+.fav-button input {
+    visibility: hidden;
+}
+
+.fav-star {
+    position: relative;
+    vertical-align: middle;
+    padding-bottom: 0.3rem;
+    display: inline-block;
+    outline-color: black;
+    color: black;
+}
+
+.fav-button input:checked + .fav-star {
+    color: #f7d300;
+}
+
+@media (max-width : 62rem) {
+    .modal {
+        font-size: 2rem;
+    }
+}
+
