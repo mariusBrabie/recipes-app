@@ -1,0 +1,82 @@
+@media (max-width : 65.5rem) {
+    .favorite-board {
+        max-width: 100%;
+    }
+}
+
+@media (max-width : 62rem) {
+    .right ul p {
+        font-size: 3.6rem;
+    }
+}
+
+@media (max-width: 105rem){
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (max-width : 65.5rem) {
+    .board-img {
+        width: 40rem;
+        height: 40rem;
+    }
+    .recipe-board {
+        max-width: 40rem;
+    }
+}
+
+@media (max-width : 62rem) {
+    .modal {
+        font-size: 3rem;
+        margin-top: 15rem;
+    }
+    .list-title {
+        font-size: 3.6rem;
+    }
+    .fav-button {
+        font-size: 3rem;
+    }
+    #modal-link {
+        font-size: 2.6rem;
+    }
+    .recipe-board {
+        font-size: 3rem;
+    }
+    .favorite-board {
+        font-size: 3rem;
+    }
+    .search-button {
+        font-size: 5rem;
+        height: 6.5rem;
+    }
+    .search-input input{
+        height: 5.8rem;
+        font-size: 4rem;
+        padding-left: 7rem;
+    }
+
+    .search-icon {
+        font-size: 3.6rem;
+        margin-top: 1.6rem;
+    }
+
+    .select-diet {
+        font-size: 4rem;
+    }
+    .header {
+        font-size: 3rem;
+    }
+    .links {
+        margin-top: 3rem;
+        font-size: 3.4rem;
+    }
+    .recipes {
+        font-size: 4rem;
+    }
+
+    .remove-button {
+        font-size : 3rem;
+        padding: 0.5rem;
+    }
+}

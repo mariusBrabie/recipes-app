@@ -15,8 +15,4 @@ body {
 
 
 
-@media (max-width: 105rem){
-    .container {
-        max-width: 90%;
-    }
-}
+

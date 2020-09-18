@@ -36,13 +36,13 @@ const FavoriteRecipe = (props) => {
             </div>
             <div className="right">
                 <ul>
-                    <p>Ingredients:</p>
+                    <p className="list-title">Ingredients:</p>
                     {props.ingredients.map((item,index) => {
                         return <li key={index}>{item}</li>
                     })}
                 </ul>
                 <ul>
-                    <p>Health Labels:</p>
+                    <p className="list-title">Health Labels:</p>
                     {props.healthLabels.map(item => {
                         return <li key={item}>{item}</li>
                     })}

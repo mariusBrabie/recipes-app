@@ -37,12 +37,3 @@
     box-shadow: 0 0 0.6rem rgba(20, 82, 20, .8);
 }
 
-@media (max-width : 65.5rem) {
-    .board-img {
-        width: 40rem;
-        height: 40rem;
-    }
-    .recipe-board {
-        max-width: 40rem;
-    }
-}

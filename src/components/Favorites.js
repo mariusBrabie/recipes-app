@@ -25,7 +25,7 @@ const Favorites = () => {
                 id="search-fav"
                 type="text"
                 className="search-input"
-                placeholder="search for your favorite recipe"
+                placeholder="find recipe"
                 onChange={handleInputChange}
             />
         </label>

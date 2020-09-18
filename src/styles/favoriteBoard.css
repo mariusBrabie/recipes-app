@@ -68,8 +68,3 @@ ul:nth-child(even) {
     
 }
 
-@media (max-width : 65.5rem) {
-    .favorite-board {
-        max-width: 100%;
-    }
-}

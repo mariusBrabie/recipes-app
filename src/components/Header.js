@@ -4,6 +4,7 @@ import '../styles/header.css'
 import { fetchRecipes } from '../actionTypes/functions'
 import { getRecipesSuccess, getRecipesError } from '../actionTypes/asyncActions'
 import { useDispatch } from 'react-redux'
+import '../styles/mobile-styles.css'
 
 const Header = () => {
 
